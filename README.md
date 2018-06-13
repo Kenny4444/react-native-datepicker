@@ -78,6 +78,7 @@ You can check [index.js](https://github.com/xgfe/react-native-datepicker/blob/ma
 | cancelBtnText | '取消' | `string` | Specify the text of cancel btn in ios. |
 | iconSource | - | <code>{uri: string} &#124; number</code> | Specify the icon. Same as the `source` of Image, always using `require()` |
 | minDate | - | <code>string &#124; date</code> | Restricts the range of possible date values. |
+| minuteInterval | - | `enum` | The interval at which minutes can be selected. Possible values are 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30 |
 | maxDate | - | <code>string &#124; date</code> | Restricts the range of possible date values. |
 | duration | 300 | `number` | Specify the animation duration of datepicker.|
 | customStyles | - | `object` | The hook of customize datepicker style, same as the native style. `dateTouchBody`, `dateInput`...|
